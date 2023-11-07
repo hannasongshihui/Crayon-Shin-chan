@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>蜡笔小新</title>
+		<link rel="icon" type="image/png" href="img/logo.png"/>
+		<link rel="stylesheet" href="css/222.css" />
+		<style>
+			.two ul {
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+			}
+			
+			.two ul li ul {
+				display: none;
+				/*padding-top: 26px;*/
+				width: 150px;
+				height: 50px;
+				position: absolute;
+				left: 0px;
+				top: 50px;
+				background-color: pink;
+				opacity: 80%;
+			}
+			
+			.two ul li:hover ul {
+				display: block;
+			}
+			
+			.two ul li:hover ul li a {
+				display: block;
+			}
+			.two ul li:hover ul li a:hover{
+				color: white;
+			}
+			.three{
+				
+				padding-left: 260px;
+				
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="grandfather">
+			<div class="father">
+				<div class="one">
+
+				</div>
+				<div class="two">
+					<ul>
+						<li>
+							<a href="index.html">home page</a>
+						</li>
+						<li>
+							<a href="introduce.html">introduction</a>
+							<ul>
+								<li>
+									<a href="introduce1.html">Personal video</a>
+									
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="family.html">Family </a>
+							<ul>
+								<li>
+									<a href="family1.html">Life video</a>
+									
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="school.html"> school</a>
+							<ul>
+								<li>
+									<a href="school1.html">School video</a>
+									
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="hometown.html"> hometown</a>
+							<ul>
+								<li>
+									<a href="hometown1.html">Hometown video</a>
+									
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="three">
+					<video src="img/生活视频.mp4" controls="controls" style="width: 1000px ;height: 500px;"></video>
+				</div>
+				
+			</div>
+		</div>
+
+	</body>
+
+</html>

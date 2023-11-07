@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>蜡笔小新</title>
+		<link rel="icon" type="image/png" href="img/logo.png"/>
+		<link rel="stylesheet" href="css/111.css" />
+		<script>
+			function getD1() {
+				var date = new Date();
+				var d1 = date.toLocaleString();
+				document.getElementById("datetime").innerHTML = d1;
+			}
+			
+
+			setInterval("getD1();", 1000);
+		</script>
+
+		
+	</head>
+
+	<body onload=getD1()>
+		<div class="grandfather">
+			<div class="father">
+				<div class="one">
+					<form action="introduce.html">
+						<br />
+						<label for="fname" >ID</label>
+						<input type="text" placeholder="Input ID" />
+						<br />
+						<label for="lname"style="margin-left: 25px;">password</label>
+						<input type="password" placeholder="Input password" />
+						<br />
+						<input type="submit" value="Forgot password" formaction="register.html" />
+						<input type="submit" value="Enter" />
+					</form>
+				</div>
+				<div class="two">
+				</div>
+				<audio src="img/音频.mp3" controls="controls"autoplay="autoplay"  style="float: right;"></audio>
+				<div id="datetime" style="width:200px;height: 30px;font-size: 20px;">/div>
+
+			</div>
+		</div>
+
+	</body>
+
+</html>

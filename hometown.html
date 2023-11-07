@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>蜡笔小新</title>
+		<link rel="icon" type="image/png" href="img/logo.png" />
+		<link rel="stylesheet" href="css/555.css" />
+		<style>
+			.two ul {
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+			}
+			
+			.two ul li ul {
+				display: none;
+				/*padding-top: 26px;*/
+				width: 150px;
+				height: 50px;
+				position: absolute;
+				left: 0px;
+				top: 50px;
+				background-color: pink;
+				opacity: 80%;
+			}
+			
+			.two ul li:hover ul {
+				display: block;
+			}
+			
+			.two ul li:hover ul li a {
+				display: block;
+			}
+			
+			.two ul li:hover ul li a:hover {
+				color: white;
+			}
+			
+			.four2{
+				
+				-o-transition: all 0.3s ease;
+				
+				transition: all 0.3s ease;
+			}
+			
+			.four2:hover {
+				
+				-o-transform: rotate(10deg);
+				transform: rotate(10deg);
+				transition:0.3s;
+			}
+			
+			.four4 {
+				width: 150px;
+				height: 200px;
+				background-image: url(img/home4.jpg );
+				-o-transition: all 1s ease;
+				transition: all 1s ease;
+			}
+			
+			.four4:hover {
+				border: 10px solid #fff;
+				border-radius: 50%;
+				transition: 1s;
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="grandfather">
+			<div class="father">
+				<div class="one">
+
+				</div>
+				<div class="two">
+					<ul>
+						<li>
+							<a href="index.html">home page</a>
+						</li>
+						<li>
+							<a href="introduce.html">introduction</a>
+							<ul>
+								<li>
+									<a href="introduce1.html">Personal video</a>
+									
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="family.html">Family </a>
+							<ul>
+								<li>
+									<a href="family1.html">Life video</a>
+									
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="school.html"> school</a>
+							<ul>
+								<li>
+									<a href="school1.html">School video</a>
+									
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="hometown.html"> hometown</a>
+							<ul>
+								<li>
+									<a href="hometown1.html">Hometown video</a>
+									
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="three">
+					<h1>My hometown</h1>
+					<div class="three1">
+						<img src="img/家乡图片.jpg" style="width: 400px;height: 300px; " />
+					</div>
+					<div class="three2">
+						<h1> hometown introduction</h1>
+						<p>The "Crayon Shin-Shin" Crayon Shin House is located in Harube, Saitama Prefecture, Japan. Yoshito Usui, the original author of the Crayon Shin-shin, was born in Shizuoka City, but grew up in Harube City, so his works are also set here. It is precisely because of the influence of "Crayon Xiaoxin" in Japan and even the world, this city with
+							 a population of less than 300,000 has become a world-famous city. Located in
+							  the southeast of Japan, east of Saitama Prefecture, Harube is a very small 
+							  city with an area of only 65 square kilometers and a population of more
+							   than 200,000, but this town is famous all over the world for its crayons, 
+							   even no less than Tokyo! 
+						</p>
+
+					</div>
+				</div>
+				<div class="four">
+					<h1>Hometown beauty</h1>
+					<div class="four1"><img src="img/home1.jpg" style="width: 150; height: 200px; float: left;"></div>
+					<div class="four2"><img src="img/home2.jpg" style="width: 150; height: 200px; float: left;"></div>
+					<div class="four3"><img src="img/home3.jpg" style="width: 150; height: 200px; float: left;"></div>
+					<div class="four4">
+						<!--<img src="img/home4.jpg" style="width: 150; height: 200px; float: left;">--></div>
+				</div>
+				<!--<div class="five">
+				<br />
+				<p>蜡笔小新</p>
+			</div>-->
+
+			</div>
+
+	</body>
+
+</html>
