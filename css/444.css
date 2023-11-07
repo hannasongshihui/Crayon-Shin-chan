@@ -1,0 +1,153 @@
+* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				/*background-image: url(img/底色.jpg);*/
+			}
+			
+			.grandfather {
+				background-color: #f7e4f4;
+				margin: 0 auto;
+				width: 1920px;
+				height: 1080px;
+				
+			}
+			
+			.father {
+				background-color: aliceblue;
+				border: solid lightblue;
+				margin: 0 auto;
+				width: 1600px;
+				height: 1080px;
+				
+			}
+			
+			.one {
+				width: 1600px;
+				height: 300px;
+				background-image: url(../img/合照2.jpg);
+				background-repeat: no-repeat;
+			}
+			
+			.two {
+				width: 1600px;
+				height: 50px;
+				background-color: cornsilk;
+			}
+			
+			ul {
+				list-style: none;
+			}
+			
+			.two li {
+				float: left;
+				width: 320px;
+				height: 50px;
+				position: relative;
+			}
+			
+			a:link {
+				display: block;
+				width: 120px;
+				height: 48px;
+				color: black;
+				font-size: 20px;
+				text-decoration: none;
+				text-align: center;
+				line-height: 48px;
+			}
+			
+			a:hover {
+				color: pink;
+			}
+			
+			.three {
+				margin: 0px 25px 0px 25px;
+				border: solid lightyellow 2px;
+				margin-top: 10px;
+				width: 1550px;
+				height: 200px;
+			}
+			
+			.three h1 {
+				font-size: 20px;
+				text-align: center;
+			}
+			
+			.three1 {
+				
+				width: 1550px;
+				height: 150px;
+				background-color: aliceblue;
+				margin-top: 10px;
+			}
+			
+			.three2 {
+				
+				width: 600px;
+				height: 150px;
+				margin-left: 150px;
+				/*				background-image: url(img/school1.jpg);*/
+				background-repeat: no-repeat;
+				float: left;
+			}
+			
+			.three2 h1 {
+				padding-left: 220px;
+				font-size: 20px;
+				color: white;
+				text-align: center;
+				line-height: 150px;
+				float: left;
+			}
+			
+			.three3 {
+				width: 300px;
+				height: 150px;
+				
+				margin-left:300px;
+				float:left;
+			}
+			
+			.three3 p {
+				margin-top: 15px;
+				text-align: center;
+				font-size: 18px;
+				color: gray;
+				line-height: 30px;
+			}
+			
+			.four {
+				margin-top: 10px;
+				
+				width: 1600px;
+				height: 500px;
+			}
+			
+			.four h2 {
+				font-size: 18px;
+				text-indent: 2em;
+			}
+			
+			.four1 {
+				margin-left: 200px;
+				/*background-image: url(img/school2.jpg);*/
+				width: 1600px;
+				height: 700px;
+				margin-top: 5px;
+			}
+			
+			.five {
+				margin-top: 10px;
+				width: 1600px;
+				height: 58px;
+				background-color: aliceblue;
+			}
+			
+			.five p {
+				font-size: 20px;
+				text-align: center;
+				color: black;
+			}

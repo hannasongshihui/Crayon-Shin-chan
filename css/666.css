@@ -1,0 +1,88 @@
+* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				/*background-image: url(img/底色.jpg);*/
+			}
+			
+			.grandfather {
+				background-color:aliceblue;
+				margin: 0 auto;
+				width: 1920px;
+				height: 1080px;
+				border: solid black 2px;
+			}
+			
+			.father {
+				background-color: aliceblue;
+				
+				margin: 0 auto;
+				width: 1600px;
+				height: 1080px;
+				border: solid lightblue;
+			}
+			
+			
+			.one {
+				width: 1600px;
+				height: 300px;
+				background-image: url(../img/合照2.jpg);
+				background-repeat: no-repeat;
+			}
+			
+			.two {
+				background-color: aliceblue;
+				margin: 100px auto;
+				width: 600px;
+				height: 400px;
+			}
+			
+			.two h2 {
+				padding-top: 20px;
+				text-align: center;
+			}
+			
+			input[type=password] {
+				width: 300px;
+				padding: 14px 60px;
+				margin: 20px 60px;
+				display: inline-block;
+				border: 1px solid pink;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+			
+			input[type=text] {
+				width: 300px;
+				padding: 14px 60px;
+				margin: 20px 60px;
+				display: inline-block;
+				border: 1px solid pink;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+			
+			input[type=submit] {
+				width: 150px;
+				background-color: white;
+				padding: 14px 25px;
+				margin-left: 210px;
+				display: inline-block;
+				border: 1px solid pink;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+			
+			input[type=sumit]:hover {
+				color: aliceblue;
+			}
+			
+			label[for=fname] {
+				margin-left: 85px;
+			}
+			
+			label[for=lname] {
+				margin-left: 80px;
+			}

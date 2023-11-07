@@ -1,0 +1,216 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body {
+	/*background-image: url(img/底色.jpg);*/
+}
+
+.grandfather {
+	background-color: #f7e4f4;
+	;
+	margin: 0 auto;
+	width: 1920px;
+	height: 1080px;
+	border: solid black 2px;
+}
+
+.father {
+	background-color: aliceblue;
+	margin: 0 auto;
+	width: 1600px;
+	height: 1080px;
+	border: solid lightblue;
+}
+
+.one {
+	width: 1600px;
+	height: 300px;
+	background-image: url(../img/合照2.jpg);
+	background-repeat: no-repeat;
+}
+
+.two {
+	width: 1600px;
+	height: 50px;
+	background-color: cornsilk;
+}
+
+ul {
+	list-style: none;
+}
+
+.two li {
+	float: left;
+	width: 320px;
+	height: 50px;
+	width: 300px;
+	line-height: 50px;
+	text-align: center;
+	position: relative;
+}
+
+
+
+a:link {
+	display: block;
+	width: 120px;
+	height: 48px;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 48px;
+}
+
+a:hover {
+	color: pink;
+}
+
+.three {
+	margin-top: 10px;
+	width: 1600px;
+	height: 800px;
+	position: absolute;
+}
+
+.three h1 {
+	height: 20px;
+	margin-top: 5px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.three1 {
+	position: absolute;
+	left: 200px;
+	top: 60px;
+	/*background-image: url(img/小新动图.gif);*/
+	width: 300px;
+	height: 300px;
+	background-repeat: no-repeat;
+	/*background-size: 500px 500px;*/
+}
+
+.nav {
+	display: flex;
+	width: 510px;
+	height: 30px;
+	background-color: lightyellow;
+	position: relative;
+	left: 800px;
+	top: 350px;
+}
+
+.nav h2 {
+	width: 150px;
+	height: 30px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.box {
+	width: 600px;
+	height: 300px;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	left: 800px;
+	top: 0px;
+	border: solid 4px lightgoldenrodyellow;
+}
+
+.img {
+	width: 600px;
+	height: 300px;
+	flex-shrink: 0;
+}
+
+
+/*#img1 {
+				background-image: url(img/美伢.jpg);
+			}
+			
+			#img2 {
+				background-image: url(img/广志.jpg);
+			}
+			
+			#img3 {
+				background-image: url(img/妮妮.jpg);
+			}
+			
+			#img4 {
+				background-image: url(img/小白.jpg);
+			}*/
+
+.four {
+	margin-top: 450px;
+	width: 1600px;
+	height: 250px;
+}
+
+.four h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.four1 {
+	margin-top: 10px;
+	width: 200px;
+	height: 200px;
+	/*background-image: url(img/帅照1.jpg);*/
+	float: left;
+	margin-left: 80px;
+	margin-right: 80px;
+	border: solid lightyellow 5px
+}
+
+.four2 {
+	margin-top: 10px;
+	width: 200px;
+	height: 200px;
+	/*background-image: url(img/帅照2.jpg);*/
+	float: left;
+	margin-left: 100px;
+	margin-right: 100px;
+	border: solid lightyellow 5px
+}
+
+.four3 {
+	margin-top: 10px;
+	width: 200px;
+	height: 200px;
+	/*background-image: url(img/帅照3.jpg);*/
+	float: left;
+	margin-left: 100px;
+	margin-right: 100px;
+	border: solid lightyellow 5px
+}
+
+.four4 {
+	margin-top: 10px;
+	width: 200px;
+	height: 200px;
+	/*background-image: url(img/帅照4.jpg);*/
+	float: left;
+	margin-left: 100px;
+	margin-right: 100px;
+	border: solid lightyellow 5px
+}
+
+.five {
+	position: absolute;
+	top: 1000px;
+	width: 1600px;
+	height: 58px;
+	background-color: aliceblue;
+}
+
+.five p {
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
